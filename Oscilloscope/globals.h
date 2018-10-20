@@ -1,4 +1,7 @@
 #pragma once
+#include <stdint.h>
+#include "util.h"
+
 #define POINTS_COUNT (360 * 5 + 1)
 #define WIDTH 720
 #define HEIGHT 720
@@ -9,6 +12,9 @@ typedef struct Point_s {
 	int y;
 } Point;
 
+
 enum SHAPE{
 	circle
 };
+
+Point newPoint();

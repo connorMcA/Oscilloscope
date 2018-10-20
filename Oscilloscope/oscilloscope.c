@@ -2,12 +2,11 @@
 #include "oscilloscope.h"
 #include "shapes.h"
 
-int(*updateShape)(Point**, int);
+int(*updateShape)(Point**, int32_t);
 
-void update(Point **points)
+void update(Point **points, uint32_t time)
 {
-	static int time = 0;
-	time++;
+
 	updateShape(points, time);
 }
 

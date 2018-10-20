@@ -24,6 +24,12 @@
     <ClCompile Include="circle.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="color.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\..\..\..\SDL\SDL2-2.0.8\lib\x86\SDL2.dll" />
@@ -36,6 +42,12 @@
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="shapes.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="color.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>

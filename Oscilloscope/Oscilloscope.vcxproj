@@ -126,16 +126,20 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="circle.c" />
+    <ClCompile Include="color.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="oscilloscope.c" />
+    <ClCompile Include="util.c" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\..\..\..\SDL\SDL2-2.0.8\lib\x86\SDL2.dll" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="color.h" />
     <ClInclude Include="globals.h" />
     <ClInclude Include="oscilloscope.h" />
     <ClInclude Include="shapes.h" />
+    <ClInclude Include="util.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
